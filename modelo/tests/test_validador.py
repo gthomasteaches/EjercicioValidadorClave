@@ -2,9 +2,9 @@ import random
 
 import pytest
 
-from validadorclave.modelo.errores import NoTieneLetraMayusculaError, NoTieneLetraMinusculaError, NoTieneNumeroError, \
+from modelo.errores import NoTieneLetraMayusculaError, NoTieneLetraMinusculaError, NoTieneNumeroError, \
     NoTieneCaracterEspecialError, NoCumpleLongitudMinimaError, NoTienePalabraSecretaError
-from validadorclave.modelo.validador import Validador, ReglaValidacionGanimedes, ReglaValidacionCalisto
+from modelo.validador import Validador, ReglaValidacionGanimedes, ReglaValidacionCalisto
 
 
 @pytest.fixture
